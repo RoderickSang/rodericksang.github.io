@@ -12,7 +12,6 @@
 .nav-links {
     list-style: none;
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; /*Figure out a new font*/
-
     display: flex;
     justify-content: space-around;
     flex-grow: 1;
