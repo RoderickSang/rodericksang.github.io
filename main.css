@@ -1,0 +1,38 @@
+.main-nav {
+    background-color: #3590F3;
+    color: #F5F5F5;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; /*Figure out a new font*/
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    max-width: 400px;
+    font-size: 17px;
+}
+
+#logo {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; /*Figure out a new font*/
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1em;
+}
