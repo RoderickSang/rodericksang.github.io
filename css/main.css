@@ -10,7 +10,7 @@
 }
 
 .nav-links {
-    list-style: none;
+    text-decoration: none;
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; /*Figure out a new font*/
     display: flex;
     justify-content: space-around;
