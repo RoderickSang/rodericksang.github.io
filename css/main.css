@@ -1,7 +1,6 @@
 .main-nav {
     background-color: #3590F3;
     color: #F5F5F5;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,6 +9,7 @@
 }
 
 .nav-links {
+    color: #F5F5F5;
     text-decoration: none;
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; /*Figure out a new font*/
     display: flex;
