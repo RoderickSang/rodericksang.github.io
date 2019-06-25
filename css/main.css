@@ -9,14 +9,17 @@
 }
 
 .nav-links {
-    color: #F5F5F5;
-    text-decoration: none;
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; /*Figure out a new font*/
     display: flex;
     justify-content: space-around;
     flex-grow: 1;
     max-width: 400px;
     font-size: 17px;
+}
+
+.nav-links > a {
+    color: #F5F5F5;
+    text-decoration: none;
 }
 
 #logo {
