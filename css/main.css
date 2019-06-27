@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .main-nav {
     background-color: #3590F3;
     color: #F5F5F5;
@@ -38,4 +42,26 @@
     padding-top: 0;
     padding-bottom: 0;
     line-height: 1em;
+}
+
+#header-image-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* This is 16:9 Aspect Ratio*/
+}
+
+#header-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+#header-text {
+    color: #F5F5F5;
+    position: absolute; 
+    top: 15vw; 
+    left: 17vw;
+    width: 100%; 
+    font-size: 10vw;
 }
