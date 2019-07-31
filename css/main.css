@@ -1,6 +1,14 @@
+* {
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; /*Figure out a new font*/
+}
+
 body {
     margin: 0;
 }
+
+a, a:visited, a:hover, a:active { 
+    color: inherit; /*To make sure the links stay the same color after being clicked.*/
+  }
 
 .main-nav {
     background-color: #3590F3;
@@ -13,7 +21,6 @@ body {
 }
 
 .nav-links {
-    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; /*Figure out a new font*/
     display: flex;
     justify-content: space-around;
     flex-grow: 1;
@@ -29,7 +36,6 @@ body {
 #logo {
     color: #F5F5F5;
     text-decoration: none;
-    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif; /*Figure out a new font*/
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 2px;
@@ -64,4 +70,48 @@ body {
     left: 17vw;
     width: 80%; 
     font-size: 10vw;
+}
+
+#about-section {
+    background-image: url(https://i.imgur.com/cv9Tuzj.png);
+    display: flex;
+    align-items: center;
+    padding: .8em;
+}
+
+#blank-column {
+    margin: 2em;
+}
+
+#about-text {
+    color: #43464B;
+    font-size: 1.1em;
+}
+
+#about-text > h2 {
+    margin-top: .2em;
+    margin-bottom: .6em;
+    text-align: center;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    text-shadow: 0.07em 0.07em 0 rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    margin-top: 1em;
+    background-color: #3590F3;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    max-width: 400px;
+    font-size: 17px;
 }
